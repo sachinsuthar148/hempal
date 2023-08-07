@@ -407,7 +407,7 @@
        .review .col {
         display: flex;
         flex-wrap: wrap;
-        width: 90%;
+        width: 100%;
         /* background-color: blue; */
         margin-top: 30%;
         margin-bottom: 20%;
