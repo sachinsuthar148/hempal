@@ -259,6 +259,8 @@
 
 
 
+
+
    @media (max-width:650px) {
        .front-box {
            color: white;
@@ -270,6 +272,7 @@
        .webhead {
            margin-top: 97px;
            font-size: 40px;
+           padding: 11px 20px;
        }
 
        .about-us {
@@ -289,7 +292,10 @@
            padding-top: 20px;
            height: fit-content;
        }
-
+       #btn1
+       {
+        padding: 20px 9px;
+       }
        .about-us :nth-child(1) {
            order: 1;
        }
@@ -320,15 +326,18 @@
 }
 
 
-       .review .col {
+
+/* mahak code start  */
+
+       /* .review .col {
            display: flex;
            flex-wrap: wrap;
            width: 100%;
            margin-top: 30%;
-           margin-bottom: 20%;
+           margin-bottom: 20%; */
            /* margin-right: 20%; */
            /* margin-left: 10%; */
-       }
+       /* }
 
        .card {
 
@@ -362,10 +371,10 @@
 
        .card:hover .image img {
            opacity: .5;
-           transform: translateY(30%);
+           transform: translateY(30%); */
            /*100%*/
 
-       }
+       /* }
 
        .card .details {
            position: absolute;
@@ -373,7 +382,7 @@
            left: 0;
            width: 70%;
            /*100%*/
-           height: 100%;
+         /*  height: 100%;
            background: #ffc107;
            transition: .5s;
            transform-origin: left;
@@ -391,7 +400,57 @@
            position: absolute;
            top: 50%;
            transform: translateY(-50%);
-       }
+       } */
+
+
+
+       .review .col {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        /* background-color: blue; */
+        margin-top: 30%;
+        margin-bottom: 20%;
+        /* margin-right: 20%; */
+        /* margin-left: 10%; */
+    }
+    
+    .card {
+        /* top: 12%; */
+        width: 301px;
+        left: 52%;
+        transform: translate(-50%, -50%);
+        margin-right: 94px;
+        height: 181px;
+        background: #000;
+        cursor: pointer;
+        padding: 10px 45px;
+        margin: 23px 0px;
+    }
+    
+    .card .details .center {
+        padding: 20px;
+        text-align: center;
+        background: #fff;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+    }
+    
+    
+    .card .details {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 98%;
+        height: 100%;
+        background: #ffffff;
+        transition: .5s;
+        transform-origin: left;
+        transform: perspective(2000px) rotateX(-90deg);
+    }
+    
 
 
        .wt {
